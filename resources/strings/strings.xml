@@ -1,0 +1,21 @@
+<strings>
+
+    <string id="AppName">Cryptocurrency</string>
+
+    <string id="CryptocurrencyTitle">Cryptocurrency</string>
+    <string id="QuoteCurrencyTitle">Quote Currency</string>
+    <string id="StockSymbolTitle">Stock Symbol</string>
+
+    <string id="CryptocurrencyBTC">Bitcoin</string>
+    <string id="CryptocurrencyBCH">Bitcoin Cash</string>
+    <string id="CryptocurrencyETH">Ethereum</string>
+    <string id="CryptocurrencyLTC">Litecoin</string>
+
+    <string id="QuoteCurrencyUSD">US Dollar</string>
+    <string id="QuoteCurrencyEUR">Euro</string>
+    <string id="QuoteCurrencyJPY">Japanese Yen</string>
+    <string id="QuoteCurrencyGBP">British Pound</string>
+    <string id="QuoteCurrencyCHF">Swiss Franc</string>
+    <string id="QuoteCurrencyCAD">Canadian Dollar</string>
+
+</strings>

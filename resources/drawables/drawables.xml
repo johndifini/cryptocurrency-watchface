@@ -1,0 +1,12 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="bluetoothIconB" x="24" y="24" filename="bluetooth_icon.png" dithering="none" />
+    <bitmap id="notificationIconB" x="44" y="44" filename="notification_icon.png" dithering="none" />
+    <!--<bitmap id="stepIconB" x="44" y="44" filename="step_icon.png" dithering="none" />
+    <bitmap id="heartIconB" filename="heart_icon.png" x="143" y="27"/>-->
+    <bitmap id="DoNotDisturbIcon" filename="donotdisturb.png">
+        <palette>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+</drawables>

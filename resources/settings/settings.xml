@@ -1,0 +1,27 @@
+<settings>
+
+    <setting propertyKey="@Properties.Cryptocurrency" title="@Strings.CryptocurrencyTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.CryptocurrencyBTC</listEntry>
+            <listEntry value="1">@Strings.CryptocurrencyBCH</listEntry>
+            <listEntry value="2">@Strings.CryptocurrencyETH</listEntry>
+            <listEntry value="3">@Strings.CryptocurrencyLTC</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.QuoteCurrency" title="@Strings.QuoteCurrencyTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.QuoteCurrencyUSD</listEntry>
+            <listEntry value="1">@Strings.QuoteCurrencyEUR</listEntry>
+            <listEntry value="2">@Strings.QuoteCurrencyJPY</listEntry>
+            <listEntry value="3">@Strings.QuoteCurrencyGBP</listEntry>
+            <listEntry value="4">@Strings.QuoteCurrencyCHF</listEntry>
+            <listEntry value="5">@Strings.QuoteCurrencyCAD</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.StockSymbol" title="@Strings.StockSymbolTitle">
+        <settingConfig type="alphaNumeric" required="true" />
+    </setting>
+
+</settings>

@@ -1,0 +1,7 @@
+<properties>
+
+    <property id="Cryptocurrency" type="number">2</property>
+    <property id="QuoteCurrency" type="number">0</property>
+    <property id="StockSymbol" type="string">SPY</property>
+
+</properties>
