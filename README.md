@@ -13,3 +13,5 @@ Stock data provided for free by IEX - https://iextrading.com/api-exhibit
 
 ### Instructions
 To get started, follow Garmin's [Getting Started](https://developer.garmin.com/connect-iq/programmers-guide/getting-started/) guide, which will help you set up your development environment.
+
+The manifest.xml file contains a dummy application id.  The id field is a 128-bit UUID identifier. Unique identifiers can be generated with the [UUID Generator](http://www.uuidgenerator.net/version4) or with standard tools ([read more](https://developer.garmin.com/connect-iq/programmers-guide/entry-points/)).
