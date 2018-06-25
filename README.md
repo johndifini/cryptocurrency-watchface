@@ -9,7 +9,7 @@ This Garmin watch face allows you to receive cryptocurrency and stock quotes dir
 
 Currently, this watch face does not support stock indexes; however, you can use an index ETF as an alternative (e.g. use SPY for the S&P 500). I wouldn't use the Dow Jones index, though. It's an inferior index (see more - https://selfaware.blog/home/2017/5/6/benchmark).
 
-Stock data provided for free by IEX - https://iextrading.com/api-exhibit
+Stock data provided for free by [IEX](https://iextrading.com/developer). View [IEX’s Terms of Use](https://iextrading.com/api-exhibit-a/).
 
 ### Instructions
 To get started, follow Garmin's [Getting Started](https://developer.garmin.com/connect-iq/programmers-guide/getting-started/) guide, which will help you set up your development environment.
