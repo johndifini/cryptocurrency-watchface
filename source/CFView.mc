@@ -272,8 +272,20 @@ class CFView extends WatchUi.WatchFace
       // TEMPERATURE
       var temperatureHistory = SensorHistory.getTemperatureHistory({});
       var temperature = temperatureHistory.next();
-      fieldTxt = (null == temperature) ? "-" : (temperature.data.toFloat()*1.8+32).format("%.0f");  //fieldTxt = 100;
-      targetDc.drawText(x, _tempYPos, _tempFont, fieldTxt+"°F", Graphics.TEXT_JUSTIFY_LEFT);
+      if(null == temperature) {
+         fieldTxt = "-";
+      }
+      else {
+         if(System.getDeviceSettings().elevationUnits == System.UNIT_METRIC) {
+            fieldTxt = temperature.data.format("%.0f")+"°C";
+         }
+         else {
+            fieldTxt = (temperature.data.toFloat()*1.8+32).format("%.0f")+"°F";
+         }
+      }
+      targetDc.drawText(x, _tempYPos, _tempFont, fieldTxt, Graphics.TEXT_JUSTIFY_LEFT);
+      //fieldTxt = (null == temperature) ? "-" : (temperature.data.toFloat()*1.8+32).format("%.0f");  //fieldTxt = 100;
+      //targetDc.drawText(x, _tempYPos, _tempFont, fieldTxt+"°F", Graphics.TEXT_JUSTIFY_LEFT);
 
    
       // BATTERY
